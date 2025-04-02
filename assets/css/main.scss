@@ -78,6 +78,32 @@ $btn-font-weight: bold;
   }
 }
 
+#contact-main-content {
+  position: relative; 
+  background-image: url("../imgs/gym-with-indoor-cycling-equipment.jpg"); 
+  background-size: cover;   
+  background-position: center; 
+  background-repeat: no-repeat; 
+  min-height: 100vh;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); 
+    z-index: 1; 
+  }
+  > * {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+
+
 
 
 

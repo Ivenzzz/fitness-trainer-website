@@ -48,9 +48,44 @@
       </div>
     </div>
 
-    <div class="row p-4">
-      <div class="col-12 col-md-6">
-        <p>Contact Us</p>
+    <div class="row p-4" id="contact-main-content">
+      <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start">
+        <div class="row">
+          <!-- Contact Form -->
+          <div class="col-md-6 bg-light p-4 rounded">
+            <h5 class="text-center text-dark">Contact Form</h5>
+            <form>
+              <div class="row mb-3">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First Name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last Name">
+                </div>
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Send</button>
+            </form>
+          </div>
+
+          <!-- Address and Map -->
+          <div class="col-md-6">
+            <div class="bg-light p-2 mb-3 rounded">
+              <h6 class="text-dark text-center">Address</h6>
+            </div>
+            <div class="bg-light p-2 mb-2 rounded"></div>
+            <div class="bg-light p-2 mb-2 rounded"></div>
+            <div class="bg-light p-2 mb-2 rounded"></div>
+            <div class="bg-light rounded text-center p-4" style="height: 200px;">
+              <span class="text-dark">Google Map Location</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
