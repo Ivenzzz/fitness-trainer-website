@@ -80,7 +80,7 @@ $btn-font-weight: bold;
 
 #contact-main-content {
   position: relative; 
-  background-image: url("../imgs/gym-with-indoor-cycling-equipment.jpg"); 
+  background-image: url("../imgs/exercise-weights-iron-dumbbell-with-extra-plates-min.jpg"); 
   background-size: cover;   
   background-position: center; 
   background-repeat: no-repeat; 
@@ -117,6 +117,10 @@ $btn-font-weight: bold;
   }
 }
 
+.mt-6 {
+  margin-top: 6rem;
+}
+
 
 
 
@@ -130,11 +134,11 @@ $btn-font-weight: bold;
   font-size: 16px;
   text-align: center;
   cursor: pointer;
-  transition: all 0.4s ease-in-out; // Smooth transition
+  transition: all 0.4s ease-in-out; 
 
   &:active {
-    transform: scale(0.98); // Press-down effect
-    transition: transform 0.1s ease-in; // Quick press effect
+    transform: scale(0.98); 
+    transition: transform 0.1s ease-in; 
   }
 }
 

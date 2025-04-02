@@ -12113,7 +12113,7 @@ textarea.form-control-lg {
 
 #contact-main-content {
   position: relative;
-  background-image: url("../imgs/gym-with-indoor-cycling-equipment.jpg");
+  background-image: url("../imgs/exercise-weights-iron-dumbbell-with-extra-plates-min.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -12139,6 +12139,10 @@ textarea.form-control-lg {
 }
 .navbar-nav .nav-link:hover {
   filter: brightness(80%);
+}
+
+.mt-6 {
+  margin-top: 6rem;
 }
 
 .btn {
