@@ -1,4 +1,4 @@
-# Fitness Trainer Website
+# FitLabs (Fitness Trainer Website)
 
 # Project Summary
 This project is a professional and responsive website designed for a fitness trainer to showcase services, build credibility, and attract potential clients. The website features a modern design and is structured into three main pages:
